@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'http://www.omdbapi.com';
+const API_URL = 'https://www.omdbapi.com';
 const API_KEY = '238dee12';
 
 export const apiDetail = async (imdbID) => {
