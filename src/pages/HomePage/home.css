@@ -1,0 +1,339 @@
+.main-container {
+    margin: 0 100px;
+}
+
+body {
+    background: linear-gradient(270deg, #000000 -2.92%, rgba(0, 0, 0, 0) 400%);
+    height: 100vh;
+}
+
+.slider-container {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+
+ul li a {
+    margin-left: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #fff;
+    border-bottom: #F2CA2D solid 3px;
+}
+
+.navbar-title {
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.navbar-title:hover {
+    color: #fff;
+}
+
+.user-name {
+    margin-left: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.user-name:hover {
+    color: #fff;
+}
+
+.userData {
+    position: relative;
+}
+
+.logout {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    font-family: 'DM Sans', sans-serif;
+    background: #FFFFFF;
+    padding: 10px 15px;
+    border: unset;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 120px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.play-logo {
+    margin-top: 310px;
+}
+
+.title {
+    margin-top: 80px;
+    max-width: 440px;
+}
+
+.title h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+.title p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E6E6E6;
+}
+
+.title span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.trailers-title {
+    margin-top: 80px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.trailers-item img {
+    /*width: 300px;*/
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: unset;
+}
+
+.trailers-item {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding: 12px;
+}
+
+.trailers-item svg {
+    position: relative;
+}
+
+.trailers-item span {
+    position: absolute;
+    margin-top: 135px;
+    margin-right: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+/*movies-section*/
+
+.movies-section {
+    background: #3D3D3D;
+}
+
+.video-block {
+    padding: 80px;
+
+}
+
+.video-title {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.video-info {
+    left: 22%;
+    margin-top: 390px;
+}
+
+.video-text {
+    width: 460px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E6E6E6;
+}
+
+.movies-card {
+    background: #1E1E1E;
+    padding-bottom: 160px;
+}
+
+.video-item-info {
+    padding: 12px;
+    max-width: 225px;
+}
+
+.video-item-info span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E6E6E6;
+}
+
+.video-item-info h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.video-item-text {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #E6E6E6;
+}
+
+/*footer start*/
+
+.col-3 {
+    margin: 90px 0;
+}
+
+.footer-menu {
+    margin-top: 130px;
+}
+
+.footer {
+    background: #3D3D3D;
+}
+
+.footer-title {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    margin: 40px 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E6E6E6;
+}
+
+.footer-span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.footer-input {
+    width: 100%;
+    position: relative;
+    background: #525252;
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    border: unset;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #9A9AB0;
+}
+
+.footer-input-button {
+    margin-left: -10px;
+}
+
+.footer-menu ul li {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    list-style: none;
+    padding-top: 25px;
+}
+
+.footer-menu ul li a {
+    margin-left: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E6E6E6;
+}
+
+.con-info {
+    margin-top: 50px;
+}
+
+.con-info span {
+    margin: 0 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.com-info svg {
+    margin-right: 15px;
+}

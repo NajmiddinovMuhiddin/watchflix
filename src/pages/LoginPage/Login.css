@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Kumbh+Sans:wght@700&family=Poppins:wght@700&display=swap');
+
+.login {
+    box-sizing: border-box;
+    height: 100vh;
+    background: linear-gradient(90deg, #F2CA2D 0%, #8C761D 37.37%, #000000 82.94%);
+}
+
+
+.home-img {
+    width: 500px;
+    height: 80%;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+}
+
+.site-img {
+    width: 500px;
+    height: 100%;
+    position: relative;
+    left: 25%;
+}
+
+.login-block {
+    text-align: center;
+    margin-top: 180px;
+    margin-right: 5%;
+}
+
+.block {
+    text-align: center;
+    margin-top: 100px;
+    max-width: 450px;
+    margin-left: -100px;
+}
+
+.block input{
+    width: 560px;
+    border: unset;
+    border-radius: 60px;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.login-text {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.login-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.login-btn {
+    margin-top: 30px;
+    font-family: 'DM Sans', sans-serif;
+    background: #FED530;
+    border-radius: 40px;
+    border: unset;
+    padding: 12px 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.login-btn:hover {
+    background-color: black;
+    border: unset;
+    transition: 0.5s;
+}

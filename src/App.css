@@ -1,0 +1,136 @@
+.movies-row {
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 1rem;
+}
+
+.main {
+    background: #1E1E1E;
+    color: #fff;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.item {
+    position: relative;
+    height: 560px;
+}
+
+.item .item-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+}
+
+.item .info {
+    z-index: 999999999999;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+.info-caption .movie-tag {
+    margin: 0 25px 0 0;
+}
+
+.item .info .info-caption {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #CCCCCC;
+}
+
+.item .info .info-caption .tag-title {
+    margin: 0 5px;
+}
+
+
+.item .info .movie-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #fff;
+}
+
+
+.item .item-bg {
+    z-index: 99999;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sp-60 {
+    padding: 60px 0px;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.genre {
+    background: #FED530;
+    padding: 0px 18px;
+    color: #000;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 25px;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: right;
+    color: #FED530;
+}
+
+.btn:hover {
+    color: #FED530;
+}
+
+.header-input {
+    border: unset;
+    padding: 9px 25px;
+    background: #525252;
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #9A9AB0;
+}
+
+.video-seekbar {
+    margin-top: 535px;
+    position: absolute;
+    width: 960px;
+    z-index: 5;
+}
+
+.section-title {
+    color: #fff;
+}
+
+.not-found {
+    color: #fff;
+    font-size: 50px;
+}
